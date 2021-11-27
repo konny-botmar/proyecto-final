@@ -1,0 +1,110 @@
+.carousel-control-next, .carousel-control-prev{
+    top: unset;
+    bottom: 150px;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.lead{
+    font-size: 1.2rem;
+    font-weight: 10;
+    font-family: arial;
+    color: white  ;
+}
+
+.content{
+    margin-top: 5rem;
+    padding: 0 4rem;
+}
+
+.left-border{
+    border-left: 7px solid rgba(256, 256, 256, .2);
+}
+
+body{
+    
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    letter-spacing: .1rem;
+}
+
+.bg-dark{
+    background-color: #1e1e1e !important;
+}
+
+#ribbon{
+    background-color: black ;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(16,193,242, 0.5) 25px, rgba(16,193,242, 0.5)  40px);
+}
+
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -30px;
+}
+
+#birthday{
+    background-color:black;
+    position: relative;
+    margin-top: -10px;
+    z-index: 90;
+    box-shadow: 0 0 10px white;
+}
+
+#birthday img{
+    position: relative;
+    margin-top: -70px;
+}
+
+.text-shadow{
+    text-shadow: 0 3px 3px white;
+}
+
+#separator-ribbon{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    margin-top: -100px;
+}
+
+#separator-ribbon .content{
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.card-border{
+    border: solid 10px ;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all case-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+.btn{
+    color: black;
+    background-color: rgb(5, 42, 252);
+    
+}
+
+.card-title{
+    color: rgba(16,193,242);
+}
+
+
+
